@@ -1,0 +1,225 @@
+/*!@import*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#app {
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: var(--pr-color)
+}
+h1, h2, h3, h4, h5, h6, p {
+    color: var(--pr-color) !important;
+}
+h1[data-v-516c47d2], h2[data-v-516c47d2], h3[data-v-516c47d2], h4[data-v-516c47d2], h5[data-v-516c47d2], h6[data-v-516c47d2] {
+  color: var(--pr-color) !important;
+}
+a {
+  color: var(--lk-color) !important;
+}
+.btn {
+  background-color: var(--bg-color) !important;
+  color: var(--lk-color) !important;
+  text-transform: none !important;
+}
+.btn:hover {
+  color: var(--lk-color) !important;
+}
+.background-colour {
+  background-color: var(--bg-color) !important;
+}
+.nav-colour {
+  background-color: var(--nv-color) !important;
+}
+.header-colour {
+  background-color: var(--hd-color) !important;
+}
+.primary-colour {
+  color: var(--pr-color) !important;
+}
+.secondary-colour {
+  color: var(--sc-color) !important;
+}
+.link-colour {
+  color: var(--lk-color) !important;
+}
+.alt-link-colour {
+  color: var(--al-color) !important;
+}
+.mobileDisplay {
+  display:none !important;
+}
+.desktopDisplay {
+  display:block !important;
+}
+.tLeft {
+  margin-left: 0px !important;
+  text-align: left;
+}
+.mBottom {
+  margin-bottom: 30px !important;
+}
+#inner {
+  margin: 0 auto;
+}
+#outer {
+  width: 100%;
+}
+@media (min-width: 600px) and (max-width: 991px) {
+  .mobileBordering {
+    background:#f1f1f1;
+    height:490px;
+    border:solid 1px #c0c0c0;
+    padding:20px;
+    height:fit-content;
+    margin-top:-40px;
+  }
+  .titleCenter {
+    text-align:left !important;
+  }
+}
+@media (max-width: 767px) {
+  .modal-dialog .modal-content {
+    height: calc(100vh - 65px) !important;
+  }
+}
+@media (max-height: 767px) and (min-width: 769px) {
+  .smallScreenTop {
+    margin-top:-100px !important;
+  }
+}
+@media (max-width: 768px) {
+  .top {
+    margin-top: 0px !important;
+  }
+  .agreeTop {
+    margin-top: -115px !important;
+  }
+}
+@media (min-width: 1025px) {
+  .agreeTop {
+    margin-top: 0px !important;
+  }
+}
+@media (min-width: 1015px) {
+  .buttonMargin {
+    margin-top: 51px !important;
+  }
+}
+@media (min-width: 1023px) {
+  .buttonMargin {
+    margin-top: 51px !important;
+  }
+}
+@media (max-width: 1014px) {
+  .agreeTop {
+    margin-top: -4px !important;
+  }
+  .buttonMargin {
+    margin-top: 31px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .agreeTop {
+    margin-top: -4px !important;
+  }
+}
+@media (max-width: 638px) {
+  .agreeTop {
+    margin-top: -11px !important;
+  }
+}
+@media (max-width: 525px) {
+  .agreeTop {
+    margin-top: -11px !important;
+  }
+}
+@media (max-width: 456px) {
+  .agreeTop {
+    margin-top: -11px !important;
+  }
+}
+@media (max-width: 411px) {
+  .agreeTop {
+    margin-top: -11px !important;
+  }
+}
+@media (max-width: 398px) {
+  .agreeTop {
+    margin-top: -11px !important;
+  }
+}
+@media (max-width: 369px) {
+  .agreeTop {
+    margin-top: -11px !important;
+  }
+}
+@media (max-width: 360px) {
+  .agreeTop {
+    margin-top: -11px !important;
+  }
+}
+@media (max-width: 347px) {
+  .agreeTop {
+    margin-top: -30px !important;
+  }
+}
+@media (max-width: 320px) {
+  .agreeTop {
+    margin-top: -11px !important;
+  }
+}
+@media (max-width: 319px) {
+  .agreeTop {
+    margin-top: -32px !important;
+  }
+}
+@media (max-width: 309px) {
+  .agreeTop {
+    margin-top: -32px !important;
+  }
+}
+@media (max-width: 293px) {
+  .agreeTop {
+    margin-top: -32px !important;
+  }
+}
+@media (max-width: 273px) {
+  .agreeTop {
+    margin-top: -32px !important;
+  }
+}
+@media (max-width: 269px) {
+  .agreeTop {
+    margin-top: -32px !important;
+  }
+}
+@media (max-width: 261px) {
+  .agreeTop {
+    margin-top: -32px !important;
+  }
+}
+@media (max-width: 247px) {
+  .agreeTop {
+    margin-top: -32px !important;
+  }
+}
+@media (min-width:769px) and (max-width:1024px) {
+  .padding-top {
+    margin-top: -40px !important;
+  }
+}
+@media (min-device-width:769px) and (max-device-width:1024px) {
+  .padding-top {
+    margin-top: -40px !important;
+  }
+}
+
